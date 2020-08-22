@@ -1,0 +1,66 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+.logo {
+    width: 275px;
+    height: 100px;
+    margin: 100px auto 0 auto;
+    background: url(./Google.webp) center center no-repeat;
+    background-size: contain;
+}
+
+.search {
+    position: relative;
+    max-width: 582px;
+    height: 40px;
+    margin: 20px auto;
+    box-shadow: 0 0 0 1px #ccc;
+    border-radius: 24px;
+}
+
+.search>.icon-search {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+    font-size: 16px;
+}
+
+.search>input {
+    height: 100%;
+    width: 100%;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 24px;
+    padding: 0 40px;
+}
+
+.search>.icon-mic {
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #5484ed;
+    font-size: 18px;
+}
+
+.search:hover {
+    box-shadow: 0 0 4px 0px #ccc;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.buttons>span {
+    display: inline-block;
+    background: #eee;
+    font-size: 13px;
+    color: #666;
+    padding: 6px 12px;
+    margin: 16px 4px;
+    border-radius: 4px;
+}
